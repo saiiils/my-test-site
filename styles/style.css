@@ -1,6 +1,6 @@
 html {
-    font-size: 10px; /* px is "pixels", base font is now 10 pixels high */
-    font-family: "Space Mono", monospace;
+    font-size: 10px;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
     background-color: #272e42;
@@ -9,7 +9,7 @@ html {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #97b5e3;
+    background-color: #dceaff;
     padding: 0 20px 20px 20px;
     border: 5px solid #000000;
 }
