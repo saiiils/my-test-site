@@ -5,25 +5,35 @@ html {
     font-style: normal;
     background-color: #272e42;
 }
+/*
+body {
+    background-color: #7b68ee;
+}
 
+@media (min-width: 30em) {
+    body {
+        background-color: #ae83d6;
+    }
+}
+*/
 header {
-    width: 600px;
+    width: calc(100% - 100px);
     margin: 0 auto;
-    background-color: #0059df;
-    padding: 0 20px 20px 20px;
+    background-color: #3c6199;
+    padding: 0px 20px 0px 20px;
     border: 5px solid #000000;
 }
 
 nav {
-    width: 600px;
+    width: calc(100% - 100px);
     margin: 0 auto;
-    background-color: #3c6199;
+    background-color: #668ec9;
     padding: 20px 20px 20px 20px;
     border: 5px solid #000000;
 }
 
 footer {
-    width: 600px;
+    width: calc(100% - 100px);
     margin: 0 auto;
     background-color: #1b2534;
     padding: 20px 20px 20px 20px;
