@@ -34,7 +34,7 @@ h3 {
     padding: 5px 0;
 }
 
-p, li {
+p, li, dl {
     font-size: 14px;
     line-height: 2;
     letter-spacing: 1px;
