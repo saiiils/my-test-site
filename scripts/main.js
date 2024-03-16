@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "images/goatee-toilet.jpg") {
-        myImage.setAttribute("src", "images/goatee-close.jpg");
+    if (mySrc === "media/goatee-toilet.jpg") {
+        myImage.setAttribute("src", "media/goatee-close.jpg");
     } else {
-        myImage.setAttribute("src", "images/goatee-toilet.jpg");
+        myImage.setAttribute("src", "media/goatee-toilet.jpg");
     }
 };
 
