@@ -10,23 +10,25 @@ body {
 }
 
 header {
-    width: calc(100% - 200px);
+    max-width: 800px;
     margin: 0 auto;
     background-color: #3c6199;
     padding: 0px 20px 0px 20px;
     border: 5px solid #000000;
+    text-align: center;
 }
 
 nav {
-    width: calc(100% - 200px);
+    max-width: 800px;
     margin: 0 auto;
     background-color: #668ec9;
     padding: 20px 20px 20px 20px;
     border: 5px solid #000000;
+    text-align: center;
 }
 
 footer {
-    width: calc(100% - 200px);
+    max-width: 800px;
     margin: 0 auto;
     background-color: #1b2534;
     padding: 0px 20px 0px 20px;
@@ -34,7 +36,7 @@ footer {
 }
 
 main {
-    width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     background-color: #dceaff;
     padding: 0 20px 20px 20px;
@@ -100,7 +102,7 @@ img {
     display: block;
     margin: 0 auto;
     padding: 40px;
-    width: 500px;
+    max-width: 400px;
 }
 
 a.hover {
