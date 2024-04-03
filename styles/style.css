@@ -9,8 +9,8 @@ html {
 }
 
 body {
+    padding: 20px 60px;
     background-color: #000000;
-    border: 5px solid #454545;
 }
 
 header {
@@ -35,7 +35,6 @@ main {
 h1 {
     font-size: 3.0em;
     margin: 0;
-    padding: 20px 0;
     text-shadow: 2px 2px 2px #00000070;
 }
 
